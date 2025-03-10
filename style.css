@@ -1,0 +1,128 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh; /* Faz o corpo ocupar pelo menos toda a tela */
+    background-image: url('https://www.totvs.com/wp-content/uploads/2023/04/tecnologias-digitais.jpg'); 
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+}
+    
+h1, h2 {
+    text-align: center; /* Centraliza os títulos */
+    color: rgb(255, 0, 0); /* Altera a cor do texto para branco para melhor contraste */
+}
+
+h3, h4, li, p{
+    text-align: center; /* Centraliza os títulos */
+    color: rgb(255, 255, 255); /* Altera a cor do texto para branco para melhor contraste */
+}
+
+.card-container {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centraliza os cartões horizontalmente */
+    flex-wrap: wrap; /* Permite que os cartões quebrem para a próxima linha */
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+.card {
+    text-align: center;
+    border: 1px solid #ff0000; /* Borda do cartão */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 7px; /* Espaçamento interno */
+    margin: 5px; /* Margem entre os cartões */
+    width: 400px; /* Largura do cartão */
+    background-color: rgba(255, 255, 255, 0.404); /* Fundo branco com leve transparência */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve para o cartão */
+    border: 1px solid #ff0000;
+}
+
+
+
+.card img {
+    text-align: center;
+    width: 100%; /* A imagem ocupa toda a largura do card */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 50px; /* Define uma largura máxima para a imagem */
+    max-height: 50px; /* Define uma altura máxima para a imagem */
+    object-fit: cover; /* Cobre o espaço disponível sem distorcer a imagem */
+    border-radius: 10px 10px 0 0; /* Bordas arredondadas no topo */
+}
+
+.how-it-works {
+    text-align: center;
+    width: 100%; /* Faz o cartão ocupar toda a largura disponível */
+    max-width: 900px; /* Define uma largura máxima para o cartão */
+    height: auto; /* Altura automática para manter a proporção */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px auto; /* Centraliza o cartão horizontalmente */
+    background-color: rgba(156, 135, 135, 0.562); /* Fundo branco com leve transparência */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra leve para o cartão */
+    display: flex; /* Usar flexbox para organizar o conteúdo */
+    flex-direction: column; /* Organiza o conteúdo em coluna */
+    padding: 30px; /* Aumenta o espaçamento interno para dar mais espaço ao conteúdo */
+}
+
+.how-it-works h2 {
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.how-it-works ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que a coluna central quebre a linha */
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.center {
+    width: 100%; /* Garante que ocupe toda a linha */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza também verticalmente */
+    margin-top: 20px;
+}
+
+.left {
+    align-items: flex-start;
+}
+
+.right {
+    align-items: flex-end;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.575);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.badge-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.badge {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+}
+.badge img {
+    width: 80px;
+    height: 80px;
+}
